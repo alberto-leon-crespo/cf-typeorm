@@ -4,19 +4,9 @@
   "description": "Carbonfrog Framework Typeorm Component",
   "main": "index.js",
   "scripts": {
-    "preinstall": "link-module-alias",
-    "build": "tsc",
     "install": "npm run build",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "_moduleAliases": {
-    "@carbonfrog/kernel" : "../../kernel",
-    "@carbonfrog/http" : "../../http",
-    "@carbonfrog/router" : "../../components/router",
-    "@carbonfrog/nunjucks" : "../../components/nunjucks",
-    "@carbonfrog/eventmanager" : "../../components/eventmanager",
-    "@carbonfrog/typeorm" : "../../components/typeorm",
-    "@carbonfrog/validator" : "../../components/validator"
   },
   "repository": {
     "type": "git",
