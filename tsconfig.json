@@ -8,13 +8,14 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "dist",
-    "rootDir": ".",
+    "rootDir": "../../",
     "baseUrl": ".",
     "paths": {
       "*": [
         "node_modules/*"
       ]
-    }
+    },
+    "composite": true
   },
   "include": [
     "**/*"
