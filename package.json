@@ -1,12 +1,12 @@
 {
   "name": "@carbonfrog/typeorm",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "description": "Carbonfrog Framework Typeorm Component",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build && npm run copy-package",
-    "publish": "npm publish dist/components/typeorm",
+    "prepublish-build": "npm run build && npm run copy-package",
+    "publish": "npm run prepublish-build && npm publish dist/components/typeorm",
     "copy-package": "shx cp -p package.json dist/components/typeorm/package.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
