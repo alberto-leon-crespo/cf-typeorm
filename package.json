@@ -1,39 +1,37 @@
 {
-  "name": "@carbonfrog/typeorm",
-  "version": "0.4.2",
-  "description": "Carbonfrog Framework Typeorm Component",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsc",
-    "prepublish-build": "npm run build && npm run copy-package",
-    "publish": "npm run prepublish-build && npm publish ./dist/components/typeorm",
-    "copy-package": "shx cp package.json ./dist/components/typeorm/package.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alberto-leon-crespo/cf-typeorm.git"
-  },
-  "keywords": [
-    "Carbonfrog",
-    "Framework",
-    "Typeorm",
-    "Component"
-  ],
-  "author": "Alberto León Crespo",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/alberto-leon-crespo/cf-typeorm/issues"
-  },
-  "homepage": "https://github.com/alberto-leon-crespo/cf-typeorm#readme",
-  "dependencies": {
-    "@carbonfrog/kernel": "^0.4.2",
-    "@types/node": "^13.9.1",
-    "node-dependency-injection": "^2.6.2",
-    "reflect-metadata": "^0.1.13",
-    "typeorm": "^0.2.24"
-  },
-  "devDependencies": {
-    "shx": "^0.3.2"
-  }
+ "name": "@carbonfrog/typeorm",
+ "version": "0.4.3",
+ "description": "Carbonfrog Framework Typeorm Component",
+ "main": "index.js",
+ "scripts": {
+  "build": "tsc",
+  "install": "npm run build",
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/alberto-leon-crespo/cf-typeorm.git"
+ },
+ "keywords": [
+  "Carbonfrog",
+  "Framework",
+  "Typeorm",
+  "Component"
+ ],
+ "author": "Alberto León Crespo",
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/alberto-leon-crespo/cf-typeorm/issues"
+ },
+ "homepage": "https://github.com/alberto-leon-crespo/cf-typeorm#readme",
+ "dependencies": {
+  "@carbonfrog/kernel": "^0.4.2",
+  "@types/node": "^13.9.1",
+  "node-dependency-injection": "^2.6.2",
+  "reflect-metadata": "^0.1.13",
+  "typeorm": "^0.2.24"
+ },
+ "devDependencies": {
+  "shx": "^0.3.2"
+ }
 }
