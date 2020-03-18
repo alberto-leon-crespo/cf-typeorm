@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "prepublish-build": "npm run build && npm run copy-package",
-    "publish": "npm run prepublish-build && npm publish ./dist/components/typeorm",
-    "copy-package": "shx cp package.json ./dist/components/typeorm/package.json",
+    "install": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
