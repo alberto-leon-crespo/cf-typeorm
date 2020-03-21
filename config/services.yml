@@ -1,4 +1,4 @@
 services:
   typeorm.connection_manager:
-    class: '../service/ConnectionManager'
+    class: '../services/ConnectionManager'
     arguments: ['%typeorm%']

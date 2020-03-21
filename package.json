@@ -1,9 +1,13 @@
 {
  "name": "@carbonfrog/typeorm",
- "version": "0.4.13",
+ "version": "0.4.14",
  "description": "Carbonfrog Framework Typeorm Component",
- "main": "index.js",
  "type": "module",
+ "main": "./dist/commonjs/index.js",
+ "module": "./dist/esm/index.js",
+ "exports": {
+  "./dist/esm": "./dist/esm/index.js"
+ },
  "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1"
  },
@@ -24,7 +28,7 @@
  },
  "homepage": "https://github.com/alberto-leon-crespo/cf-typeorm#readme",
  "dependencies": {
-  "@carbonfrog/kernel": "^0.4.13",
+  "@carbonfrog/kernel": "^0.4.14",
   "@types/node": "^13.9.1",
   "node-dependency-injection": "^2.6.2",
   "reflect-metadata": "^0.1.13",
