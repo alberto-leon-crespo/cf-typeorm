@@ -1,6 +1,6 @@
 {
  "name": "@carbonfrog/typeorm",
- "version": "0.4.11",
+ "version": "0.4.13",
  "description": "Carbonfrog Framework Typeorm Component",
  "main": "index.js",
  "type": "module",
@@ -24,7 +24,7 @@
  },
  "homepage": "https://github.com/alberto-leon-crespo/cf-typeorm#readme",
  "dependencies": {
-  "@carbonfrog/kernel": "^0.4.11",
+  "@carbonfrog/kernel": "^0.4.13",
   "@types/node": "^13.9.1",
   "node-dependency-injection": "^2.6.2",
   "reflect-metadata": "^0.1.13",
