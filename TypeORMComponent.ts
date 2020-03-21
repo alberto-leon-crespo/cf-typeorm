@@ -1,6 +1,6 @@
 import {BaseComponent} from "@carbonfrog/kernel/BaseComponent";
 import {BaseComponentInterface} from "@carbonfrog/kernel/BaseComponentInterface";
-import path from "path";
+import * as path from "path";
 import {ContainerBuilder, YamlFileLoader, JsFileLoader, JsonFileLoader, FileLoader} from "node-dependency-injection";
 
 export class TypeORMComponent extends BaseComponent implements BaseComponentInterface {
