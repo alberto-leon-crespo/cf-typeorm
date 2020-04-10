@@ -28,7 +28,7 @@
  },
  "homepage": "https://github.com/alberto-leon-crespo/cf-typeorm#readme",
  "dependencies": {
-  "@carbonfrog/kernel": "^0.4.22",
+  "@carbonfrog/kernel": "^0.5.2",
   "@types/node": "^13.9.1",
   "node-dependency-injection": "^2.6.2",
   "reflect-metadata": "^0.1.13",
