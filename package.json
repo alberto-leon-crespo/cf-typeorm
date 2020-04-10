@@ -1,6 +1,6 @@
 {
  "name": "@carbonfrog/typeorm",
- "version": "0.4.22",
+ "version": "0.5.2",
  "description": "Carbonfrog Framework Typeorm Component",
  "type": "module",
  "main": "./dist/commonjs/index.js",
